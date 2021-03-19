@@ -392,7 +392,7 @@ function commandMessage(key) {
 
   if (!object.hasOwnProperty(key)) {
     $("#command").html(
-      "<pre> # Follow instructions at this URL: https://github.com/pytorch/pytorch#from-source </pre>"
+      "<pre> # Follow instructions at this URL: https://github.com/openvinotoolkit/openvino_tensorflow#build-from-source </pre>"
     );
   } else {
     $("#command").html("<pre>" + object[key] + "</pre>");
