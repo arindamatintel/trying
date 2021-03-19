@@ -222,22 +222,22 @@ function commandMessage(key) {
     "stable,pip,macos,accnone,python": "pip install torch torchvision torchaudio",
 
     "stable,pip,linux,accnone,python":
-      "pip install torch==1.8.0+cpu torchvision==0.9.0+cpu torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html",
+      "pip install openvino-tensorflow",
 
     "stable,pip,linux,cuda10.2,python":
-      "pip install torch torchvision torchaudio",
+      "pip install openvino-tensorflow",
 
     "stable,pip,linux,cuda11.1,python":
-      "pip install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html",
+      "pip install openvino-tensorflow",
 
     "stable,pip,linux,rocm4.0,python":
-      "pip install torch -f https://download.pytorch.org/whl/rocm4.0.1/torch_stable.html<br />pip install ninja && pip install 'git+https://github.com/pytorch/vision.git@v0.9.0'",
+      "pip install openvino-tensorflow",
 
     "stable,pip,windows,accnone,python":
-      "pip install torch==1.8.0+cpu torchvision==0.9.0+cpu torchaudio===0.8.0 -f https://download.pytorch.org/whl/torch_stable.html",
+      "Not supported",
 
     "stable,pip,windows,cuda10.2,python":
-      "pip install torch==1.8.0+cu102 torchvision==0.9.0+cu102 torchaudio===0.8.0 -f https://download.pytorch.org/whl/torch_stable.html",
+      "Not supported",
 
     "stable,pip,windows,cuda11.1,python":
       "pip install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio===0.8.0 -f https://download.pytorch.org/whl/torch_stable.html",
@@ -261,7 +261,7 @@ function commandMessage(key) {
       "Download here: <br/><a href='https://download.pytorch.org/libtorch/cpu/libtorch-macos-1.8.0.zip'> https://download.pytorch.org/libtorch/cpu/libtorch-macos-1.8.0.zip </a>",
 
     "stable,libtorch,macos,cuda10.2,cplusplus":
-      "MacOS binaries do not support CUDA. Download CPU libtorch here: <br/><a href='https://download.pytorch.org/libtorch/cpu/libtorch-macos-1.8.0.zip'> https://download.pytorch.org/libtorch/cpu/libtorch-macos-1.8.0.zip </a>",
+      "Not supported",
 
     "stable,libtorch,macos,cuda11.1,cplusplus":
       "MacOS binaries do not support CUDA. Download CPU libtorch here: <br/><a href='https://download.pytorch.org/libtorch/cpu/libtorch-macos-1.8.0.zip'> https://download.pytorch.org/libtorch/cpu/libtorch-macos-1.8.0.zip </a>",
